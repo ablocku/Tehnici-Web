@@ -1,0 +1,116 @@
+body{
+	
+}
+
+li {
+	float: left;
+	list-style-type: none;
+	margin-top: 10px;
+	font-family: "Comic Sans";
+	font-size: 17px;
+	
+	
+}
+
+a{
+	text-align: left;
+	letter-spacing: 0.1em;
+	line-height: 1.4;
+	text-decoration: none;
+	border: 0;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	vertical-align: baseline;
+	opacity: 0.9;
+	color: #EFD469;
+}
+
+
+#nume{
+	width: 100px;
+	font-size: 15px;
+	margin-left: 0px;
+}
+
+#nume p{
+	font-family: "Perpetua";
+	font-size: 15px;
+	text-align: left;
+	color: #EFD469;
+	visibility: hidden;
+	opacity: 0.9;
+}
+
+#nume:hover > p{
+	visibility: visible;
+}
+
+#about{
+	width: 100px;
+	margin-left: 200px;
+	display: block;
+	color: #EFD469;
+}
+
+#works{
+	width: 100px;
+	margin-left: 200px;
+	color: #EFD469;
+}
+
+#news{
+	width: 100px;
+	margin-left: 200px;
+	color: #EFD469;
+}
+
+.resize {
+    width: 100%;
+	height: 100%;
+	padding: 0px;
+	background-size: 100%;
+	opacity: 0.9;
+}
+
+.container{
+	position: fixed;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}
+
+.stanga_sus{
+	position: absolute;
+	top: 8px;
+	left: 16px;
+}
+
+.meniu{
+	width: 900px;
+}
+
+#about:hover{
+	text-decoration: underline;
+	text-decoration-color: #EFD469;
+
+}
+
+#works:hover{
+	text-decoration: underline;
+	text-decoration-color: #EFD469;
+
+}
+
+#news:hover{
+	text-decoration: underline;
+	text-decoration-color: #EFD469;
+
+}
+
